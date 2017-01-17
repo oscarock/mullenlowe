@@ -13,6 +13,18 @@ p.input_space{
 	margin: 10px;
 }
 
+p.text1 {
+    font-size: 19px;
+    margin-left: -240px;
+    margin-top: -19px;
+}
+
+p.text2 {
+    font-size: 19px;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+
 .title1{
 	line-height: 10px;
 }
@@ -44,4 +56,48 @@ input::-webkit-input-placeholder{
  	font-size: 17px;
  	padding-left: 15px;
  	font-family: Georgia;
- }
+}
+
+.radio {
+  max-width:400px;
+  margin:10px 580px 0 auto;
+}
+
+.radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+  -o-opacity: 0;
+}
+
+.radio input[type="radio"] + label {
+  position: relative;
+  padding: 0 0 0 25px;
+  font-size: 16px;
+  line-height: 25px;
+  margin:0 0 10px 0;
+}
+
+.radio input[type="radio"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: -35px;
+  height: 14px;
+  width: 14px;
+  background: white;
+  border: 1px solid gray;
+  box-shadow: inset 0px 0px 0px 2px white;
+  -webkit-box-shadow: inset 0px 0px 0px 2px white;
+  -moz-box-shadow: inset 0px 0px 0px 2px white;
+  -o-box-shadow: inset 0px 0px 0px 2px white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.radio input[type="radio"]:checked + label:before {
+  background: #4297AF;
+}
