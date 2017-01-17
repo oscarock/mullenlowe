@@ -47,7 +47,7 @@ input.input_telefono {
 input.input_ciudad {
     width: 200px;
     float: right;
-    margin: -56px 720px;
+    margin: -56px 730px;
 }
 
 input::-webkit-input-placeholder{
