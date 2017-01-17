@@ -46,9 +46,8 @@ input.input_telefono {
 
 input.input_ciudad {
     width: 200px;
-    position: absolute;
-    top: 240px;
-    right: 555px;
+    float: right;
+    margin: -56px 720px;
 }
 
 input::-webkit-input-placeholder{
@@ -56,6 +55,10 @@ input::-webkit-input-placeholder{
  	font-size: 17px;
  	padding-left: 15px;
  	font-family: Georgia;
+}
+
+input[class="input_telefono placeholder_style"]::-webkit-input-placeholder {
+  color: #C9704D;
 }
 
 .radio {
@@ -100,4 +103,24 @@ input::-webkit-input-placeholder{
 
 .radio input[type="radio"]:checked + label:before {
   background: #4297AF;
+}
+
+.button {
+    background-color: #4CADC9;
+    border: none;
+    color: white;
+    padding: 13px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    top: -92px;
+    left: -142px;
+    font-family: Georgia;
+    font-size: 18px;
+    width: 140px;
 }
