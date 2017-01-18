@@ -9,7 +9,8 @@
 	<div class="title1">
 		<p>Ingresa tus datos</p>
 	</div>
-	<form action="asfasfas" method="post" class="form">
+	<form action="send_form" method="post" class="form">
+		{{ csrf_field() }}
 		<p class="input_space"><input type="text" placeholder="Nombre completo*"></p>
 		<p class="input_space"><input type="text" placeholder="Número de identificacíon*"></p>
 		<p class="input_space"><input type="text" placeholder="Correo electrónico*"></p>
