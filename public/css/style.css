@@ -25,6 +25,18 @@ p.text2 {
     margin-top: -50px;
 }
 
+p.text_validation {
+    font-size: 20px;
+    margin-left: -115px;
+    margin-top: -75px;
+}
+
+p.text_success {
+    font-size: 20px;
+    margin-left: -250px;
+    margin-top: -75px;
+}
+
 .title1{
     line-height: 10px;
 }
@@ -34,6 +46,12 @@ p.text2 {
 }
 
 input[type="text"]{
+    width: 420px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+input[type="date"]{
     width: 420px;
     height: 40px;
     border-radius: 5px;
@@ -123,4 +141,10 @@ input[class="input_telefono placeholder_style"]::-webkit-input-placeholder {
     font-family: Georgia;
     font-size: 18px;
     width: 140px;
+}
+
+.validation_fileds{
+    position: relative;
+    margin: -15px auto auto 720px;
+    color: #FFFFFF;
 }

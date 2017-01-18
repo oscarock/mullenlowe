@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UserCreateRequest;
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
+use App\User;
 
 class UserController extends Controller
 {
@@ -34,9 +35,10 @@ class UserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UserCreateRequest $request)
     {
-        var_dump($request->all());
+        User::create($request->all());
+        return redirect('/')->with('success','Usuario Registrado');
     }
 
     /**
