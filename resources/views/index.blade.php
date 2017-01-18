@@ -17,7 +17,7 @@
 		<p class="input_space"><input name="telephone" class="input_telefono placeholder_style" type="text" placeholder="Teléfono*"></p>
 		<p class="input_space"><input name="city" class="input_ciudad" type="text" placeholder="Ciudad de residencia*"></p>
 		<p class="input_space"><input name="costume_purchase" type="text" placeholder="Lugar donde realizo la compra del traje*"></p>
-		<p class="input_space"><input name="date_purchase" type="date" placeholder="Fecha de realización de la compra del traje*"></p>
+		<p class="input_space"><input name="date_purchase" type="text" placeholder="Fecha de realización de la compra del traje* (d-m-y)"></p>
 		<p class="input_space"><input name="invoice_number" type="text" placeholder="Número de la factura de la compra*"></p>
 		<div class="radio">
 			<input type="radio" name="radio-group" id="first-choice" value="First Choice" />

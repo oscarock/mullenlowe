@@ -148,3 +148,8 @@ input[class="input_telefono placeholder_style"]::-webkit-input-placeholder {
     margin: -15px auto auto 720px;
     color: #FFFFFF;
 }
+
+input#first-choice {
+    margin-left: -160px;
+    margin-top: 20px;
+}
